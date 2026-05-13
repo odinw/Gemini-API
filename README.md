@@ -1,2 +1,8 @@
-# Gemma-AI
-try Gemma's API
+- **Get API key:** [Google AI Studio](https://aistudio.google.com/apikey)  
+- **Python version:** 3.14.* or higher  
+- **Update pip:** `python.exe -m pip install --upgrade pip`  
+- **Windows permission setting:** If you are coding on Windows, you might need to set the Python directory permissions to "Everyone: Full Control."  
+- **Install required modules:**  
+  - `pip install google-generativeai`  
+  - If the installation fails, try: `pip install -U -q "google-genai"`  
+- **Sharing your project:** Before sharing your project, remember to remove your `api_key`.  
